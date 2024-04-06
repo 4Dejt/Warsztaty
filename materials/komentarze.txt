@@ -1,0 +1,3 @@
+/* To jest komentarz w CSS */
+
+<!-- To jest komentarz w HTML -->

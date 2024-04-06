@@ -1,0 +1,4 @@
+CSS możemy zapisywać na 3 różne sposoby (również wypisane od najważniejszego do najmniejważnego):
+    - inline (kod CSS pisany bezpośrednio w otwierającym tagu danego elementu - wtedy atrybutem jest 'style' a wartością kod CSS)
+    - internal (kod CSS pisany w tagu 'head' w kodzie HTML)
+    - external (kod CSS pisany w osobnym pliku np.'style.css')

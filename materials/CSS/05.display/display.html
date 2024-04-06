@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div i span</title>
+
+    <style>
+        div{
+            background-color: tomato;
+            display: block; /* W tej sytuacji elementowi div nic się nie stanie, ponieważ div z natury jest elementem blokowym. */
+            display: inline; /* W tej sytuacji element div zmienia się na elment inline co oznacza, że zajmuje tyle miejsca ile potrzebuje (ile jest wewnątrz diva). */
+            display: inline-block; /* Tutaj div jest zarówno elementem blokowym jak i liniowy. Znaczy to tyle, że możemy manipulować jego wielkością (height i width) ale zajmuje tyle miejsca ile potrzebuje. */
+
+            /* Kiedy używamy ^tego zapisu (display: inline-block;) możemy również użyć atrybutu visibility i ustawić go na hidden. Oznacza to tyle, że ten element jest i zajmuje tyle miejsca ile by zajmował normalnie tylko go nie widać. Wtedy ten zapis wyglądał by tak: 
+            visibility: hidden; */
+
+            display: none; /* Ten zapis oznacza, że danego elementu nie ma na stronie (nie pokazujemy go) */
+        }
+        span{
+            background-color: cornflowerblue;
+            display: inline; /* Tutaj Elementowi span nie ma różnicy, ponieważ normalnie jest on wyświetlany jako element inline */
+            display: block; /* W tej sytuacji elementowi span zmienia się sposób wyświetlania, teraz możemy manipulować jego wielkością (width i height) i zajmuje miejsce w całej linie na stronie. */
+            display: inline-block; /* Tutaj span jest zarówno elementem blokowym jak i liniowy. Znaczy to tyle, że możemy manipulować jego wielkością (height i width) ale zajmuje tyle miejsca ile potrzebuje. */
+        }
+    </style>
+
+</head>
+<body>
+    <div>To jest div</div>
+    <span>To jest span</span>
+</body>
+</html>
