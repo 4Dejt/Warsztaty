@@ -1,3 +1,6 @@
 /* To jest komentarz w CSS */
 
 <!-- To jest komentarz w HTML -->
+
+Komentarze w np. vs code można stworzyć korzystając z kombinacji dwóch klawiszy.
+Wybierasz linijkę, którą chcesz zakomentować i klikasz: [ctr] + [/].

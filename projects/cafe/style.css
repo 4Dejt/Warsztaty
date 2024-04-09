@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Noto Serif", serif;
+}
+
+:root{
+    --first-color: #846959;
+    --second-color: #604A43;
+    --font-color: #F6DBBD;
+    --third-color: #604A43;
+    --fourth-color: #A78E83;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--second-color);
+
+    position: fixed;
+    z-index: 1000;
+}
+
+.menu-item{
+    color: var(--font-color);
+    padding: 3vh;
+}
+
+.menu-item:hover{
+    border-bottom: 1vh solid var(--first-color);
+}
+
+#home-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/coffee-3106958_1920.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+}
+
+#home-page h1{
+    color: var(--font-color);
+    font-size: 10em;
+    padding-top: 10vh;
+}
+
+.image-about-us{
+    height: 10vh;
+    width: 5vw;
+}
+
+#coffe-beans-image{
+    float: left;
+}
+
+#books-image{
+    float: right;
+}
+
+#about-us {
+    height: 100vh;
+    background-color: var(--first-color);
+    color: var(--font-color);
+    text-align: center; /* Wyśrodkowanie nagłówka */
+}
+
+.subcontent{
+    float: left;
+    margin: 5vh;
+}
+
+#about-us h2 {
+    font-size: 3em;
+    padding: 9vh; /* Odstęp na górze sekcji */
+}
+
+#about-us .content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center; 
+}
+
+#about-us .content img {
+    margin: 3.5vh; /* Odstęp między obrazkami */
+}
+
+#about-us .content p {
+    max-width: 55vh; /* Maksymalna szerokość tekstu */
+    text-align: justify; /* Wyjustowanie tekstu */
+}
+
+#offers{
+    color: var(--font-color);
+    background-color: var(--third-color);
+    height: 110vh;
+    text-align: center;
+    max-width: 109vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#offers h2{
+    font-size: 3em;
+    padding: 9vh;
+}
+
+.info{
+    margin-top: 5vh;
+    width: 15vw;
+    height: 35vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.offer{
+    float: left;
+    width: 33.33%;
+}
+
+.offer p{
+    text-align: left;;
+    padding: 9vh;
+}
+
+#contact{
+    background-color: var(--fourth-color);
+}
+
+form{
+    width: 31vw;
+    padding: 3.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--font-color);
+}
+
+form input{
+    width: 330px;
+    height: 30px;
+}
+
+textarea{
+    width: 330px;
+}
+
+form label{
+    font-size: 18px;
+}
+
+fieldset{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+legend{
+    font-size: 30px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: var(--first-color);
+    color: var(--font-color);
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border: none;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: var(--font-color);
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.two-columns{
+    width: 50%;
+    float: left;
+}

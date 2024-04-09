@@ -1,0 +1,7 @@
+div{
+    border:   2px   solid #3b3b3b;
+/*  border: grubość; styl; kolor;*/
+    border-radius: 10px;
+    /* Możemy też zaokrąglać nasze obramowanie. Wystarczy użyć atrybutu 
+    'border-radius' i wartość o ile chcemy zaokrąglić obramowanie.*/
+}

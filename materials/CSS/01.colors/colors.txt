@@ -1,0 +1,7 @@
+W CSS kolory możemy określić na 5 różnych sposobów:
+    - NAZWA (np. 'red', 'orange', 'yellow', 'green')
+    - RGB (zapis ten zawiera 3 cyfr/liczb. Dla każdego koloru przypada jedna    wartość i każda wartość jest z zakresu 0-255. np. rgb(0,255,0) = green).
+    - RGBA (to jest ten sam zapis co RGB tylko zawiera jeszcze jedną wartość i jest nią przeźroczystość ang. Alpha).
+    - HEX (ten zapis składa się z '#' i 6 cyfr bądź liter (litery zastępują liczby od 10 w zwyż.) np. #ffffff = white, #000000 = black. Zapis jest praktycznie jak w RGB tylko, że w tym zapisie przypadają dwie wartości na jeden kolor. Czyli schemat to: #RRGGBB)
+    - HSL (H = Hue => odcień, S = Saturation => nasycenie, L = Lightness => jasność.)
+    - HSLA (ten sam zapis co przy HSL tylko dodatkowo zawiera parametr Alpha: przeźroczystość.)
