@@ -1,0 +1,12 @@
+div{
+    background-color: aqua;
+}
+
+.span1{
+    background-color: aquamarine;
+}
+
+.span2{
+    background-color: none;
+    color: tomato;
+}

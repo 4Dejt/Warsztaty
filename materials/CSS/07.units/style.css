@@ -1,0 +1,38 @@
+body{
+    display: flex; /* Ustawiamy ten styl aby wszystkie elementy ustawiały się obok siebie. */
+}
+
+.box{
+    background-color: tomato; /* ustawiamy kolor dla wszystkich divów z klasą box */
+    margin: 10vh; /* Dodajem margin dookoła elementów z klasą box */
+}
+
+#box1{
+    height: 50px; /* Korzystamy z jednostki px */
+    width: 50px;
+}
+
+#box2{
+    height: 3em; /* Tutaj urzywamy jednostki em */
+    width: 3em;
+}
+
+#box3{
+    height: 3rem; /* Jak widzicie w jednym stylu (powyżej^) jest jednostka em a tutaj jest rem. Różnice są takie, że em jest dziedziczne po rodzicu (parent) a rem - nie. Szczegóły przeczytajcie na tej stronie:  */
+    width: 3rem; /* https://clivio.pl/roznica-miedzy-jednostkami-em-i-rem-w-css/ */
+}
+
+#box4{
+    height: 9vh; /* Tutaj stosujemy wartości odpowiednie do wysokości pomagają one nam tworzenie responsywnego tekstu. */
+    width: 4vw; /* Tak samo jak powyżej^ tylko, że specjalne dla szerokości */
+}
+
+#content{ /* To jest kontener, ponieważ #box5 wymaga kontenera wyżej (jako parent - więcej opisane poniżej).  */
+    height: 10vh; 
+    width: 10vw;
+}
+
+#box5{
+    height: 10%; /* Jednak aby dodać takie jednostki (%) musimy mieć nasz element  w jakimś innym elemencie */
+    width: 10%;
+}
