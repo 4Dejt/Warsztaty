@@ -1,0 +1,15 @@
+.box{ /* Odwołujemy się klasy box obiektu */
+    height: 50px; /* wysokość obiektu */
+    width: 50px; /* szerokość obiektu */
+    background-color: aqua; /* ustawiamy kolor tła */
+    margin: 20px; /* margin to odstęp poza elementem */
+    padding: 10px; /* padding to odstęp contentu od border */
+    border: 2px solid black; /* border to poprostu obramowanie obiektu */
+
+    
+    /* Te trzy poniższe style (atrybut: wartość;) ustawiają kontent na środku obiektu (diva o klasie box */
+
+    display: flex; /* elementy ustawiają się obok siebie. Styl display:flex; pozwala również na umiejscowienie elementów na śroku jakiegoś innego elementu (parent) przy użyciu poniższych stylów */
+    align-items: center; /* wyśrodkowywuje element w osi pionowej */
+    justify-content: center; /* wyśrodkowywuje element w osi poziomej */
+}

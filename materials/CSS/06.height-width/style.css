@@ -1,0 +1,6 @@
+.box{ /* odwołanie do klasy box */
+    height: 50px; /* ustawiamy wysokość elementu na 50px */
+    width: 50px; /* ustawiamy szerokość elementu na 50px */
+    background-color: tomato; /* kolor tła elementu ustawiony na kolor tomato */
+    margin: 10px; /* odstęp dookoła elementu jest ustawiony na 10px */
+}
