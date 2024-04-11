@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#menu{
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    text-align: right;
+    padding: 30px;
+}
+
+li{
+    font-weight: 900;
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.2s;
+}
+
+.menu-link:hover{
+    border-bottom: 2px solid #dd3603;
+    background-color: #ff5805;
+    border-radius: 0.2rem;
+}
+
+#main-page{
+    /* max-width: 1400px; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://cdn.glitch.com/b54cf89a-9854-4f01-a545-04553711c46c%2Fiii.jpg?v=1584807370385);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 800px; */
+    height: 100vh;
+}
+
+#oferta{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.info{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.trzy-kolumny{
+    float: left;
+    width: 33.33%;
+}
+
+h1{
+    clear: both;
+    text-align: center;
+    padding: 40px;
+}
+
+p{
+    text-align: left;
+    padding: 50px;
+}
+
+.zdj-galeria{
+    height: 90vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+
+#galeria{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#galeria, #oferta{
+    margin-bottom: 10vh;
+}
+
+#stopka{
+    max-width: 1400px;
+    height: 500px;
+    background-color: #262626;
+    padding: 50px;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dwie-kolumny{
+    width: 50%;
+    float: left;
+}
+
+form{
+    margin-top: 20px;
+    width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+form input{
+    width: 330px;
+    height: 30px;
+}
+
+textarea{
+    width: 330px;
+}
+
+form label{
+    font-size: 18px;
+}
+
+fieldset{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+legend{
+    font-size: 30px;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: #fa4a0a;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border: 2px solid #fa4a0a;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}

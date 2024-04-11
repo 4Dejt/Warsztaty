@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0">
+  <meta name="keywords" content="task, task list, to-do">
+  <title>Task List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="addElement">
+    <h1>Task List</h1>
+
+    <input id="element" type="text" placeholder="task name" maxlength="30" autocomplete="off">
+    <button id="addButton">add task</button>
+    <button id="printButton">print tasks</button>
+
+    <p id="announcement"></p>
+
+    <div id="toPrint">
+      <div id="ListContainer">
+        <ol id="TaskList">
+
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var savedTasks = localStorage.getItem('tasks');
+    if (savedTasks) {
+      document.getElementById('TaskList').innerHTML = savedTasks;
+    }
+
+    function addTask() {
+      var newElement = document.getElementById('element').value.trim();
+      if(newElement !== ''){
+        document.getElementById('announcement').textContent = '';
+        document.getElementById('TaskList').innerHTML += '<li>'+newElement+'</li>';
+        document.getElementById('element').value = '';
+
+        localStorage.setItem('tasks', document.getElementById('TaskList').innerHTML);
+      } else {
+        document.getElementById('announcement').textContent = "Uzupełnij pole";
+      }
+    }
+
+    document.getElementById('addButton').addEventListener('click', addTask);
+
+    document.getElementById('TaskList').addEventListener('click', function(e){
+      var ListElement = e.target;
+      this.removeChild(ListElement);
+
+      localStorage.setItem('tasks', document.getElementById('TaskList').innerHTML);
+    });
+
+    document.getElementById('printButton').addEventListener('click', function(){
+      var printSpace = document.getElementById('toPrint').innerHTML;
+      document.body.innerHTML = printSpace;
+      window.print();
+      window.location.reload();
+    });
+
+    // Obsługa klawisza ENTER
+    document.getElementById('element').addEventListener('keyup', function(event) {
+      if (event.key === 'Enter') {
+        addTask();
+      }
+    });
+
+  </script>
+</body>
+</html>

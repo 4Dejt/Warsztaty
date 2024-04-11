@@ -1,0 +1,444 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    height: 150svh;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------menu---------------------------------------------- */
+
+.header-menu a{
+    color: #bdc3c7;
+}
+
+.menu{
+    height: 12svh;
+    width: 100%;
+    font-size: 3svh;
+    display: flex;
+    background-color: #2c3e50;
+    position: sticky;
+    top: 0;
+    gap: 1rem;
+}
+
+.header-menu{
+    top: 0;
+    position: sticky;
+    z-index: 999;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    width: 100svw;
+    gap: 5svw;
+}
+
+.menu-item{
+    height: 5svh;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+}
+
+.menu-item::before{
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 0%;
+    height: 1.5px;
+    transition: width 400ms;
+}
+
+.menu-item::before:hover{
+    text-decoration: underline;
+    width: 100%;
+}
+
+/* -------------------------------------home-------------------------------------------- */
+
+#home{
+    height: 80svh;
+    background-color: #2c3e50;
+}
+
+.greet{
+    display: flex;
+    justify-content: left;
+    font-size: 9rem;
+    color: #bdc3c7;
+    margin-left: 5%;
+}
+
+.name{
+    font-size: 5rem;
+    display: flex;
+    justify-content: left;
+    color: #bdc3c7;
+    margin-left: 5%;
+}
+
+.undername{
+    font-size: 3rem;
+    display: flex;
+    justify-content: left;
+    color: #bdc3c7;
+    margin-left: 5%;
+}
+
+.moje-logo{
+    display: flex;
+    justify-content: right;
+    margin-left: 50%;
+    margin-top: -25%;
+    width: 50%;
+    height: 100%;
+}
+
+.home-img-house{
+    height: 10rem;
+    width: 10rem;
+    margin-left: -3%;
+    margin-top: -10%;
+    position: fixed;
+}
+
+/* -----------------------------------------about-me-------------------------------------------------------- */
+
+#about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #bdc3c7;
+    margin-top: -13rem;
+    height: 150svh;
+}
+
+.circle{
+    align-self: flex-end;
+    width: 400px;
+    aspect-ratio: 1;
+    border: 4px dashed #ffff;
+    outline: 4px dashed #2c3e50;
+    outline-offset: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35svw;
+}
+
+.sqr{
+    display: flex;
+    width: 24rem;
+    aspect-ratio: 1;
+    border: 0.2rem solid gray;
+    border-radius: 50rem;
+    transform: rotate(45deg);
+    position: relative; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sqr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(-45deg) scale(1);
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    z-index: 2;
+    transition: ease-in-out 0.5s;
+    border-radius: 10rem;
+} 
+
+.caption {
+    z-index: -1;
+    position: absolute;
+    right: 10svw; /*Początkowo napis jest schowany*/
+    width: 20rem;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    transition: right 0.3s ease; /*Dodaj płynność animacji*/
+    height: 10svh;
+    width: 5svw;
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10rem;
+    margin-left: -10rem;
+}
+
+.caption p{
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+/* .container:hover .caption {
+    display: inline;
+    right: -30rem; 
+    height: 50svh;
+    width: 40svw;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding-left: -3rem;
+} */
+
+/* .container:hover{
+    right: 15rem;
+    width: 45%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0;
+    padding-left: 2rem;
+    
+} */
+
+.zapychacz{
+    height: 15rem;
+    background-color: #2c3e50;
+    margin-top: -15rem;
+}
+
+.music{
+    margin-top: -20rem;
+    margin-left: 5rem;
+    width: 20rem;
+    height: 13rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.music .bar{
+    width: 12px;
+    border-radius: 10px;
+    background: white;
+    animation: movement 1.5s ease-in-out infinite;
+
+}
+
+@keyframes movement{
+    0%, 100%{
+        height: 10px;
+    }
+
+    50%{
+        height: 70px;
+    }
+
+
+}
+
+.music .bar:nth-child(1){
+    background: #7c7e80;
+    animation-delay: 1s;
+}
+
+.music .bar:nth-child(2){
+    background: #fff;
+    animation-delay: .8s;
+}
+
+.music .bar:nth-child(3){
+    background: #7c7e80;
+    animation-delay: .6s;
+}
+
+.music .bar:nth-child(4){
+    background: #fff;
+    animation-delay: .4s;
+}
+
+.music .bar:nth-child(5){
+    background: #7c7e80;
+    animation-delay: .2s;
+}
+
+.music .bar:nth-child(6){
+    background: #fff;
+    animation-delay: .2s;
+}
+
+.music .bar:nth-child(7){
+    background: #7c7e80;
+    animation-delay: .4s;
+}
+
+.music .bar:nth-child(8){
+    background: #fff;
+    animation-delay: .6s;
+}
+
+.music .bar:nth-child(9){
+    background: #7c7e80;
+    animation-delay: .8s;
+}
+
+.music .bar:nth-child(10){
+    background: #fff;
+    animation-delay: 1s;
+}
+
+/* ----------------------------------------my-work--------------------------------------- */
+
+#my-work{
+    height: 150svh;
+    background-color: #2c3e50;
+    margin-bottom: -15rem;
+}
+
+#my-work h1{
+    font-size: 4rem;
+    color: #bdc3c7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#my-work h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #bdc3c7;
+}
+
+#my-work h3{
+    font-size: 2rem;
+}
+
+.offer{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #bdc3c7;
+    vertical-align: top;
+    width: 27%;
+    height: auto;
+    margin: 3%;
+    margin-top: 8%;
+}
+
+.offer figure{
+    height: 100%;
+    width: 100%;
+}
+
+#my-work img{
+    height: 14rem;
+    width: 10rem;
+}
+
+/* ----------------------------------------------------gallery------------------------------------------------------ */
+
+#gallery{
+    background-color: #bdc3c7;
+    margin-bottom: -18rem;
+    margin-top: -0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery img{
+    margin-bottom: 50%;
+    width: 80%;
+    height: auto;
+}
+
+/* ---------------------------------------------------contact------------------------------------------------------ */
+
+#contact{
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #bdc3c7;
+    height: 5rem;
+    gap: 3rem;
+    margin-top: -0.3rem;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #bdc3c7;
+}
+
+#contact li{
+    list-style: none;
+}
+
+#contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+/* ----------------------------------------------scroll-bar-------------------------------------------------------- */
+
+/* Pionowy pasek przewijania */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Kolor tła paska przewijania */
+::-webkit-scrollbar-track {
+    background-color: #2c3e50;
+}
+
+/* Kolor paska przewijania */
+::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    border-radius: 3rem;
+}
+
+/* Kolor paska przewijania po najechaniu */
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}

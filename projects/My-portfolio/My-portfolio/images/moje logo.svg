@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg11681"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="moje logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11683"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.0852784"
+     inkscape:cx="515.99663"
+     inkscape:cy="394.36886"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g389" />
+  <defs
+     id="defs11678">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11674">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:10.2627"
+         id="rect11676"
+         width="736.99402"
+         height="499.51819"
+         x="-7.9306512"
+         y="-67.48291" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       fill="none"
+       id="g11328"
+       transform="matrix(0.95262277,0,0,0.95262277,-352.01686,28.484914)"
+       clip-path="url(#clipPath11674)">
+      <path
+         d="M 174,30 C 78.9,22.43 -1,135 38,222 c 38,94.4 181,120 249,44.4 65.9,-64.6 91.3,-164 172,-215 82,-56 214,-3.12 230,96.4 15.6,95.3 -87.1,188 -180,160 -68.7,-15.5 -118,-74.2 -146,-136 -34.5,-59 -79.6,-122 -150,-138 -12.5,-2.84 -25.4,-3.96 -38.2,-3.94 z"
+         stroke-width="59"
+         id="path11322" />
+      <path
+         d="M 118,165 H 238"
+         stroke-width="25"
+         id="path11324" />
+      <path
+         d="M 486,165 H 586 M 535,115 V 215"
+         stroke-width="32"
+         id="path11326" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.5741px;font-family: 'Montserrat', sans-serif;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000300;fill-opacity:1;stroke:none;stroke-width:2.66499;stroke-opacity:1"
+       x="110.50052"
+       y="119.2923"
+       id="text15809"><tspan
+         sodipodi:role="line"
+         id="tspan15807"
+         style="stroke-width:2.665;fill:#000300;fill-opacity:1"
+         x="110.50052"
+         y="119.2923" /></text>
+    <g
+       id="g389">
+      <circle
+         style="fill:#bdc3c7;fill-opacity:1;stroke:none;stroke-width:2.66499;stroke-opacity:1"
+         id="path12369"
+         cx="151.87355"
+         cy="99.295319"
+         r="77.574471" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:59.8271px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000300;fill-opacity:1;stroke:none;stroke-width:1.63403;stroke-opacity:1"
+         x="85.082458"
+         y="116.76704"
+         id="text16801"><tspan
+           sodipodi:role="line"
+           id="tspan16799"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:59.8271px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.63403"
+           x="85.082458"
+           y="116.76704"><tspan
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:59.8271px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.63403"
+             id="tspan16957">D</tspan><tspan
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:59.8271px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2c3e50;fill-opacity:1;stroke-width:1.63403"
+             id="tspan18443">ejt</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
