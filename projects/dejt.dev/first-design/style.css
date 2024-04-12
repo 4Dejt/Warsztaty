@@ -51,14 +51,14 @@ header{
     height: 4vh;
     padding: 1vh;
     transition: ease-in-out 0.2s;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 }
 
 .menu-item:hover{
     border-bottom: 0.25em solid var(--dark-violet);
     background-color: var(--light-violet);
     color: var(--pale-blue);
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
 }
 
 #home{
@@ -68,7 +68,7 @@ header{
     align-items: center;
     justify-content: space-around;
 
-    img{
+    /* img{
         height: 70vh;
         width: 28vw;
         border-top-left-radius: 60%;
@@ -76,7 +76,17 @@ header{
         border-bottom-left-radius: 90%;
         border-bottom-right-radius: 60%;
         position: sticky;
-    }
+    } */
+}
+
+.my-image{
+    height: 70vh;
+    width: 28vw;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 50%;
+    position: sticky;
 }
 
 .left-home{
@@ -98,10 +108,28 @@ header{
     color: var(--light-violet);
 
     h1{
-        font-size: 4em;
+        font-size: 5em;
         padding-top: 5vh;
         padding-left: 3vw;
         color: var(--white);
+    }
+    
+    h2{
+        margin: 2vh 0vh;
+        font-size: 2.5em;
+    }
+
+    h3{
+        font-size: 2em;
+        margin: 2vh 0vh;
+    }
+
+    h4{
+        font-size: 1.5em;
+    }
+
+    ul{
+        padding-left: 3vw;
     }
 
     p{
@@ -124,12 +152,42 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-around;
+        padding-left: 5vw;
+        padding-right: 8vw;
     }
 }
 
 #offers{
     height: 100vh;
     background-color: var(--dark-violet);
+    justify-content: start;
+    color: var(--light-violet);
+
+    h1{
+        font-size: 5em;
+        padding-top: 5vh;
+        padding-left: 3vw;
+        color: var(--white);
+    }
+
+    h2{
+        padding-top: 3vh;
+        padding-left: 3vw;
+        font-size: 2em;
+    }
+
+    .content{
+        display: flex;
+    }
+
+    .three-columns{
+        height: 48.5vh;
+        width: 33.33%;
+        padding: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 footer{
