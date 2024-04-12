@@ -1,1 +1,2 @@
 Fonty (czcionki) do swoich projektów możemy dobierać ze strony google.com/fonts
+Jeśli wejdziemy na tę stronę www.google.com/fonts i wybierzemy odpowiednią dla nas czcionkę to możemy sobie ją podlinkować do naszego projektów. 
