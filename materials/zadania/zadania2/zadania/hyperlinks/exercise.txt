@@ -1,1 +1,0 @@
-Stwórz stronę, która ma na sobie link przekierowujący na stronę https://lo31.krakow.pl/ i otwiera się na nowej karcie.
