@@ -1,1 +1,1 @@
-Wystarczy wpisać [!] i kliknąć [tab] albo [space] i wtedy generuje nam się startowy plik html.
+Wystarczy wpisać [!] i kliknąć [tab] albo [enter] i wtedy generuje nam się startowy plik html.
