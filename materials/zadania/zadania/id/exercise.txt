@@ -1,1 +1,0 @@
-Stwórz paragraf, która ma id i go udekoruj używając css'a.
