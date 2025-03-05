@@ -1,1 +1,0 @@
-Stwórz pare elementów mających klasę i go udekoruj używając css'a.
