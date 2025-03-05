@@ -1,1 +1,1 @@
-Stwórz prosty formularz. Imię, Nazwisko, email, płeć, akceptacja regulaminu i wysłanie formularza.
+Stwórz prosty formularz. Imię, Nazwisko, email, data urodzenia, płeć, akceptacja regulaminu i wysłanie formularza.
