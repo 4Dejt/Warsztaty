@@ -1,0 +1,1 @@
+Stwórz 3 paragrafy z klasami element i udekoruj je używając CSS'a
