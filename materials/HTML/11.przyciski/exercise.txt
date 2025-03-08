@@ -1,0 +1,1 @@
+Stwórz przycisk, który po kliknięciu wyświetla komunikat.
