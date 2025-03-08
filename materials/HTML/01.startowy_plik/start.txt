@@ -1,1 +1,1 @@
-Wystarczy wpisać [!] i kliknąć [tab] albo [enter] i wtedy generuje nam się startowy plik html.
+W Visual Stuio Code wystarczy wpisać [!] i kliknąć [tab] albo [enter] i wtedy generuje nam się startowy plik html.
